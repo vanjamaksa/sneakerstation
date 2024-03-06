@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="./css/bootstrap.css" rel="stylesheet"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+
+  <title>Sneaker station</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/img/logo.png" alt="Bootstrap" width="32" height="32">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./store.html" tabindex="-1">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contact.html" tabindex="-1">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./author.html" tabindex="-1">Author</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br><br><br><br>
+
+    <div class="container">
+        <div class="d-flex justify-content-center border-bottom">
+            <h1 class="display-4 m-0 lh-base">Contact us</h1>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col col-lg-6 col-md-10 col-sm-12">
+                    <ul id="contact-form-errors">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container  my-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <form>
+                        <div class="mb-3">
+                            <label for="full-name" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="full-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address">
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender-radio" id="gender-male"
+                                value="male">
+                            <label class="form-check-label" for="gender-male">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender-radio" id="gender-female"
+                                value="female">
+                            <label class="form-check-label" for="gender-female">
+                                Female
+                            </label>
+                        </div>
+                        <div class="form-check my-4">
+                            <input class="form-check-input" type="checkbox" value="" name="terms-cb"
+                                id="checkbox-terms">
+                            <label class="form-check-label" for="checkbox-terms">
+                                I agree with terms and conditions
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Ask a question</label>
+                            <textarea class="form-control" id="question-text-area" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-background rounded-0 w-100" id="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- Footer -->
+    <div class="container-fluid px-0 my-0 newsletter-container bg-white">
+        <footer class="pb-3 mt-4">
+
+            <div class="container-fluid">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-8">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h1 class="card-title text-center mb-4 display-6 m-0">Subscribe to newsletters</h1>
+                                <form class="newsletter-form">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text rounded-0" id="basic-addon1">
+                                                <img src="./img/envelope.svg" alt="Envelope">
+                                            </span>
+                                            <input type="email" class="form-control rounded-0"
+                                                placeholder="Enter your email address..." id="newsletter-email"
+                                                aria-label="Email" aria-describedby="basic-addon1">
+                                        </div>
+                                        <span id="newsletter-error">
+                                        </span>
+                                    </div>
+                                    <div class="d-grid">
+                                        <button type="button" class="btn btn-background rounded-0"
+                                            id="newsletter-button">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="./store.html" class="nav-link px-2 text-muted">Store</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="nav-item"><a href="./author.html" class="nav-link px-2 text-muted">Author</a></li>
+            </ul>
+            <p class="text-center text-muted">All rights reserved © 2024 ICT College</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

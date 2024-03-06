@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="./css/bootstrap.css" rel="stylesheet"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+
+  <title>Sneaker station</title>
+</head>
+
+<body>
+  <div class="d-flex justify-content-center" id="ajax-error">
+
+  </div>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.png" alt="Bootstrap" width="32" height="32"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./store.html" tabindex="-1">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html" tabindex="-1">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./author.html" tabindex="-1">Author</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="container-fluid col-lg-12 px-4 py-5 gradient hero">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-5 d-flex justify-content-center">
+      <div class="col-10 col-sm-12 col-lg-6">
+        <img src="./img/shoes-display.png" class="d-block mx-lg-auto img-fluid shoes-display" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy"/>
+      </div>
+
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Welcome!</h1>
+        <p class="lead" style="text-align: justify">Welcome to The Sneakers Spot - your ultimate destination for sneaker
+          enthusiasts! Elevate your footwear game with our exclusive collection of trendsetting sneakers. From classic
+          icons to the latest releases, we've got your style covered. Step into comfort, step into confidence – unleash
+          your signature look with The Sneakers Spot. Explore our selection now!</p>
+        <div class="d-grid d-md-flex justify-content-md-start py-4 px-2">
+          <a href="./store.html" class="btn btn-primary btn-lg px-4 me-md-2 rounded-0">Browse store</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured -->
+  <div class="container">
+    <div class="d-flex justify-content-center my-4 border-bottom">
+      <h1 class="display-4 m-0 lh-base">Featured Products</h1>
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-3 g-3" id="featured-products">
+
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- Shipping and Returns -->
+  <div class="container">
+    <div class="d-flex justify-content-center my-4 border-bottom">
+      <h1 class="display-4 m-0 lh-base">We Offer</h1>
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-3 g-3">
+
+        <div class="col" height="482px">
+          <div class="container">
+            <div class="row pt-3">
+              <div class="col-2 d-flex justify-content-center">
+                <img src="./img/truck.svg" width="48" height="48" alt="truck"/>
+              </div>
+              <div class="col-10">
+                <h4 class="font-gradient">FREE SHIPPING</h4>
+                <p style="text-align: justify">Experience the ease of shopping for shoes without worrying about shipping
+                  fees. Enjoy complimentary shipping on every order, ensuring that your footwear reaches you promptly
+                  and affordably. Whether you're treating yourself to a new pair or purchasing gifts for loved ones, our
+                  free shipping policy adds extra value to your shopping experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" height="482px">
+          <div class="container">
+            <div class="row pt-3">
+              <div class="col-2 d-flex justify-content-center">
+                <img src="./img/arrow-clockwise.svg" width="48" height="48" alt="clockwise"/>
+              </div>
+              <div class="col-10">
+                <h4 class="font-gradient">FREE RETURNS</h4>
+                <p style="text-align: justify">We understand that finding the perfect pair of shoes can be tricky, which
+                  is why we offer hassle-free returns at no additional cost. If your shoes don't fit quite right or if
+                  you're not completely satisfied with your purchase, simply return them, and we'll take care of the
+                  return shipping. Our commitment to free returns reflects our dedication to ensuring that you're
+                  completely satisfied with every aspect of your shopping journey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" height="482px">
+          <div class="container">
+            <div class="row pt-3">
+              <div class="col-2 d-flex justify-content-center">
+                <img src="./img/question-circle.svg" width="48" height="48" alt="circle"/>
+              </div>
+              <div class="col-10">
+                <h4 class="font-gradient">CUSTOMER SUPPORT</h4>
+                <p style="text-align: justify">Your satisfaction is our top priority, and our dedicated customer support
+                  team is here to assist you every step of the way. Whether you have questions about sizing, need style
+                  recommendations, or require assistance with your order, our knowledgeable and friendly representatives
+                  are ready to help. We believe in providing personalized support to ensure that your shopping
+                  experience with us is smooth, enjoyable, and stress-free.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+    <div class="d-flex justify-content-center my-4 border-bottom">
+      <h1 class="display-4 m-0 lh-base">Big Sale</h1>
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2 g-3">
+
+        <div class="col d-flex justify-content-center" height="482px">
+          <img src="./img/shoes-display.png" class="w-100" alt="shoes"/>
+        </div>
+
+        <div class="col d-flex justify-content-center align-items-center flex-column" height="482px">
+          <h3 class="fw-bold font-gradient">Up to 30% off on selected items!</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere ducimus
+            consectetur nostrum voluptate! Expedita nisi dolore exercitationem quo veniam at. Minus voluptatem voluptas
+            unde aliquid optio, temporibus blanditiis doloribus.</p>
+          <div class="d-grid d-md-flex justify-content-md-start py-4 px-2">
+            <a href="./store.html" class="btn btn-background btn-lg px-4 me-md-2 rounded-0">Shop now!</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid px-0 my-0 newsletter-container bg-white">
+    <footer class="pb-3 mt-4">
+
+      <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-8">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1 class="card-title text-center mb-4 display-6 m-0">Subscribe to newsletters</h1>
+                <form class="newsletter-form">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text rounded-0" id="basic-addon1">
+                        <img src="./img/envelope.svg" alt="Envelope">
+                      </span>
+                      <input type="email" class="form-control rounded-0" placeholder="Enter your email address..."
+                        id="newsletter-email" aria-label="Email" aria-describedby="basic-addon1">
+                    </div>
+                    <span id="newsletter-error">
+                    </span>
+                  </div>
+                  <div class="d-grid">
+                    <button type="button" class="btn btn-background rounded-0" id="newsletter-button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="./store.html" class="nav-link px-2 text-muted">Store</a></li>
+        <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+        <li class="nav-item"><a href="./author.html" class="nav-link px-2 text-muted">Author</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Documentation</a></li>
+      </ul>
+      <p class="text-center text-muted">All rights reserved © 2024 ICT College</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

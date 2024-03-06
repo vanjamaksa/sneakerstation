@@ -1,0 +1,255 @@
+[
+    {
+        "id": 0,
+        "name": "Adi20000",
+        "brand": 0,
+        "gender": 0,
+        "price": 14599,
+        "salePrice": 12999,
+        "img": {
+            "src": "./img/shoes/m_0.jpg",
+            "alt": "Adidas shoes"
+        }
+    },
+    {
+        "id": 1,
+        "name": "NMD_G1",
+        "brand": 0,
+        "gender": 0,
+        "price": 18999,
+        "salePrice": 16999,
+        "img": {
+            "src": "./img/shoes/m_1.jpg",
+            "alt": "Adidas shoes"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Dunk Low",
+        "brand": 1,
+        "gender": 0,
+        "price": 16799,
+        "salePrice": 11999,
+        "img": {
+            "src": "./img/shoes/m_2.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 3,
+        "name": "997H",
+        "brand": 2,
+        "gender": 0,
+        "price": 14599,
+        "salePrice": 12999,
+        "img": {
+            "src": "./img/shoes/m_3.jpg",
+            "alt": "New Balance shoes"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Air Force 1 '07",
+        "brand": 1,
+        "gender": 0,
+        "price": 15499,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/m_4.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan 1",
+        "brand": 1,
+        "gender": 0,
+        "price": 17699,
+        "salePrice": 13999,
+        "img": {
+            "src": "./img/shoes/m_5.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 6,
+        "name": "RETROPY E5",
+        "brand": 0,
+        "gender": 0,
+        "price": 16799,
+        "salePrice": 10999,
+        "img": {
+            "src": "./img/shoes/m_6.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Air Max 90",
+        "brand": 1,
+        "gender": 0,
+        "price": 20699,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/m_7.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Dunk Low",
+        "brand": 1,
+        "gender": 0,
+        "price": 16799,
+        "salePrice": 13999,
+        "img": {
+            "src": "./img/shoes/m_8.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 9,
+        "name": "RS-X Efekt",
+        "brand": 5,
+        "gender": 0,
+        "price": 13999,
+        "salePrice": 8999,
+        "img": {
+            "src": "./img/shoes/m_9.jpg",
+            "alt": "Puma shoes"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Knu Skool Black",
+        "brand": 3,
+        "gender": 0,
+        "price": 10599,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/m_10.jpg",
+            "alt": "Vans shoes"
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Air Jordan 1",
+        "brand": 1,
+        "gender": 1,
+        "price": 20999,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_0.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Superstar XLG",
+        "brand": 0,
+        "gender": 1,
+        "price": 14399,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_1.jpg",
+            "alt": "Adidas shoes"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Japan S PF",
+        "brand": 4,
+        "gender": 1,
+        "price": 10999,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_2.jpg",
+            "alt": "ASICS shoes"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Mayze Crashed",
+        "brand": 5,
+        "gender": 1,
+        "price": 14399,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_3.jpg",
+            "alt": "Puma shoes"
+        }
+    },
+    {
+        "id": 15,
+        "name": "574",
+        "brand": 2,
+        "gender": 1,
+        "price": 13199,
+        "salePrice": 9499,
+        "img": {
+            "src": "./img/shoes/f_4.jpg",
+            "alt": "New Balance shoes"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Air Max 90",
+        "brand": 1,
+        "gender": 1,
+        "price": 21999,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_5.jpg",
+            "alt": "Nike shoes"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Forum Bold",
+        "brand": 0,
+        "gender": 1,
+        "price": 14399,
+        "salePrice": 10399,
+        "img": {
+            "src": "./img/shoes/f_6.jpg",
+            "alt": "Adidas shoes"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Old Skool",
+        "brand": 3,
+        "gender": 1,
+        "price": 9499,
+        "salePrice": 4599,
+        "img": {
+            "src": "./img/shoes/f_8.jpg",
+            "alt": "Vans shoes"
+        }
+    },
+    {
+        "id": 19,
+        "name": "UA Old Skool",
+        "brand": 3,
+        "gender": 1,
+        "price": 12999,
+        "salePrice": 6499,
+        "img": {
+            "src": "./img/shoes/f_9.jpg",
+            "alt": "Vans shoes"
+        }
+    },
+    {
+        "id": 20,
+        "name": "550",
+        "brand": 2,
+        "gender": 1,
+        "price": 16799,
+        "salePrice": null,
+        "img": {
+            "src": "./img/shoes/f_10.jpg",
+            "alt": "New Balance shoes"
+        }
+    }
+]
